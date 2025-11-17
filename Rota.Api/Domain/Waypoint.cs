@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Text.Json.Serialization;
 
 namespace Rota.Api.Domain
 {
@@ -14,8 +15,12 @@ namespace Rota.Api.Domain
         public double Longitude { get; set; }
 
         #region RELACIONAMENTO
+
         public int RouteRequestId { get; set; }
+
+        [JsonIgnore]
         public RouteRequest? RouteRequest { get; set; }
+
         #endregion
     }
 }

@@ -36,7 +36,7 @@ public class CalculatorTests : IClassFixture<TestServerFactory>
         {
             name = "Rota Teste",
             optimization = "distance",
-            totalLoadWeightKg = 2000, // excesso
+            totalLoadWeightKg = 2000,
             totalLoadVolumeM3 = 2,
             vehicleId = vehicleId,
             waypoints = new[]
