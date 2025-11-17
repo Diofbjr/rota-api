@@ -53,7 +53,8 @@ Possui: - Criação de rotas com múltiplos pontos\
 
 ### 1. 🚗 Veículos
 
-Cada veículo inclui: - Peso máximo\
+Cada veículo inclui: 
+- Peso máximo\
 - Volume máximo\
 - Altura máxima\
 - Autonomia\
@@ -75,7 +76,8 @@ Realiza: - Distância total (Haversine)\
 
 ### 4. 📊 Histórico automático
 
-Armazena: - Distância\
+Armazena: 
+- Distância\
 - Tempo\
 - Custo\
 - Caminho serializado\
@@ -162,7 +164,8 @@ FluentValidation garantindo integridade de dados.
 
     dotnet run
 
-Acesse Swagger: - http://localhost:5000/swagger\
+Acesse Swagger: 
+- http://localhost:5000/swagger\
 - https://localhost:7000/swagger
 
 ------------------------------------------------------------------------
@@ -218,7 +221,8 @@ MIT License.
 
 ## 🎉 Obrigado por conferir!
 
-Se quiser, posso gerar: - CI/CD\
+Se quiser, posso gerar: 
+- CI/CD\
 - Dashboard React\
 - Deploy Azure\
 - Algoritmos avançados
