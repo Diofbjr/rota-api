@@ -6,6 +6,7 @@ using Rota.Api.Data;
 using Rota.Api.Domain;
 using Rota.Api.Dtos;
 using Rota.Api.Validators;
+using Rota.Api.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,9 +20,15 @@ builder.Services.AddValidatorsFromAssemblyContaining<CreateRouteRequestValidator
 
 #endregion
 
+#region Configuração dos Serviços (Injeção de Dependência)
+
+builder.Services.AddScoped<IDistanceService, DistanceService>();
+builder.Services.AddScoped<IRouteCalculator, RouteCalculator>();
+
+#endregion
+
 #region Configuração do EF Core
 
-// Registrar o DbContext apenas se NÃO for ambiente de Teste
 if (!builder.Environment.IsEnvironment("Test"))
 {
     builder.Services.AddDbContext<RotaDbContext>(options =>
@@ -226,9 +233,9 @@ routeGroup.MapDelete("/{id:int}", async (int id, RotaDbContext db) =>
 
 #endregion
 
-#region Cálculo da Rota
+#region Cálculo da Rota (USANDO IRouteCalculator)
 
-routeGroup.MapPost("/{id:int}/calculate", async (int id, RotaDbContext db) =>
+routeGroup.MapPost("/{id:int}/calculate", async (int id, RotaDbContext db, IRouteCalculator calculator) =>
 {
     var req = await db.RouteRequests
         .Include(r => r.Waypoints)
@@ -237,52 +244,19 @@ routeGroup.MapPost("/{id:int}/calculate", async (int id, RotaDbContext db) =>
 
     if (req is null) return Results.NotFound();
 
-    if (req.Vehicle != null)
+    try
     {
-        if (req.TotalLoadWeightKg > req.Vehicle.MaxLoadWeightKg)
-            return Results.BadRequest($"A carga pesa {req.TotalLoadWeightKg}kg, excedendo {req.Vehicle.MaxLoadWeightKg}kg permitidos.");
+        var result = calculator.Calculate(req);
 
-        if (req.TotalLoadVolumeM3 > req.Vehicle.MaxVolumeM3)
-            return Results.BadRequest($"O volume é {req.TotalLoadVolumeM3}m³, excedendo {req.Vehicle.MaxVolumeM3}m³ permitidos.");
+        db.RouteResults.Add(result);
+        await db.SaveChangesAsync();
+
+        return Results.Ok(result);
     }
-
-    double totalKm = 0;
-    double totalMinutes = 0;
-
-    var points = req.Waypoints.OrderBy(w => w.Order).ToList();
-
-    for (int i = 0; i < points.Count - 1; i++)
-        totalKm += HaversineDistanceKm(points[i].Latitude, points[i].Longitude,
-                                        points[i + 1].Latitude, points[i + 1].Longitude);
-
-    totalMinutes = (totalKm / 50.0) * 60.0;
-
-    double? cost = null;
-    if (req.Vehicle != null)
+    catch (RouteCalculationException ex)
     {
-        if (totalKm > req.Vehicle.MaxDistanceWithoutRefuelKm)
-            return Results.BadRequest("A rota excede a autonomia do veículo.");
-
-        cost =
-            (totalKm * req.Vehicle.CostPerKm) +
-            ((totalMinutes / 60.0) * req.Vehicle.CostPerHour) +
-            ((totalMinutes / 60.0) * req.Vehicle.DriverCostPerHour);
+        return Results.BadRequest(new { error = ex.Message });
     }
-
-    var result = new RouteResult
-    {
-        RouteRequestId = req.Id,
-        TotalDistanceKm = Math.Round(totalKm, 3),
-        TotalTimeMinutes = Math.Round(totalMinutes, 1),
-        TotalCost = cost,
-        SerializedPath = SerializePath(points),
-        CalculatedAt = DateTime.UtcNow
-    };
-
-    db.RouteResults.Add(result);
-    await db.SaveChangesAsync();
-
-    return Results.Ok(result);
 });
 
 #endregion
@@ -306,36 +280,6 @@ resultGroup.MapGet("/{id:int}", async (int id, RotaDbContext db) =>
 
     return r is null ? Results.NotFound() : Results.Ok(r);
 });
-
-#endregion
-
-#region Métodos Auxiliares
-
-static double HaversineDistanceKm(double lat1, double lon1, double lat2, double lon2)
-{
-    const double R = 6371;
-
-    double toRad(double val) => val * Math.PI / 180.0;
-
-    var dLat = toRad(lat2 - lat1);
-    var dLon = toRad(lon2 - lon1);
-
-    var a =
-        Math.Sin(dLat / 2) * Math.Sin(dLat / 2) +
-        Math.Cos(toRad(lat1)) * Math.Cos(toRad(lat2)) *
-        Math.Sin(dLon / 2) * Math.Sin(dLon / 2);
-
-    var c = 2 * Math.Atan2(Math.Sqrt(a), Math.Sqrt(1 - a));
-
-    return R * c;
-}
-
-static string SerializePath(IEnumerable<Waypoint> points)
-{
-    return System.Text.Json.JsonSerializer.Serialize(
-        points.Select(w => new { w.Latitude, w.Longitude, w.Order })
-    );
-}
 
 #endregion
 
