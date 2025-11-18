@@ -8,17 +8,16 @@
 
 ## 📦 Sobre o Projeto
 
-A **Rota API** é uma aplicação construída em **.NET 9** para otimização
-inteligente de rotas logísticas, permitindo cálculos de distância,
-tempo, custos, autonomia e restrições reais de transporte.
+A **Rota API** é uma aplicação construída em **.NET 9** para otimização inteligente de rotas logísticas, permitindo cálculos de distância, tempo, custos, autonomia e restrições reais de transporte.
 
-Possui: 
+Possui:
 - Criação de rotas com múltiplos pontos
 - Gerenciamento de veículos com restrições reais
 - Cálculo de distância, tempo e custo
 - Validações avançadas
 - Registro de histórico de cálculos
 - Testes unitários e de integração
+
 
 ------------------------------------------------------------------------
 
@@ -71,11 +70,12 @@ Inclui waypoints com:
 
 ### 3. 🎯 Cálculo Inteligente
 
-Realiza: 
+Realiza:
 - Distância total (Haversine)
 - Tempo estimado
 - Custos avançados
 - Restrições reais (peso, volume, autonomia)
+
 
 ### 4. 📊 Histórico automático
 
