@@ -12,39 +12,40 @@ A **Rota API** é uma aplicação construída em **.NET 9** para otimização
 inteligente de rotas logísticas, permitindo cálculos de distância,
 tempo, custos, autonomia e restrições reais de transporte.
 
-Possui: - Criação de rotas com múltiplos pontos\
-- Gerenciamento de veículos com restrições reais\
-- Cálculo de distância, tempo e custo\
-- Validações avançadas\
-- Registro de histórico de cálculos\
+Possui: 
+- Criação de rotas com múltiplos pontos
+- Gerenciamento de veículos com restrições reais
+- Cálculo de distância, tempo e custo
+- Validações avançadas
+- Registro de histórico de cálculos
 - Testes unitários e de integração
 
 ------------------------------------------------------------------------
 
 ## 📚 Sumário
 
--   Tecnologias Utilizadas\
--   Funcionalidades da API\
--   Arquitetura do Projeto\
--   Endpoints Principais\
--   Como Rodar o Projeto\
--   Como Rodar os Testes\
--   Modelos Importantes\
--   Testes Automatizados\
--   Contribuição\
+-   Tecnologias Utilizadas
+-   Funcionalidades da API
+-   Arquitetura do Projeto
+-   Endpoints Principais
+-   Como Rodar o Projeto
+-   Como Rodar os Testes
+-   Modelos Importantes
+-   Testes Automatizados
+-   Contribuição
 -   Licença
 
 ------------------------------------------------------------------------
 
 ## 🛠 Tecnologias Utilizadas
 
--   .NET 9\
--   Entity Framework Core\
--   FluentValidation\
--   SQL Server\
--   Swagger\
--   xUnit\
--   WebApplicationFactory\
+-   .NET 9
+-   Entity Framework Core
+-   FluentValidation
+-   SQL Server
+-   Swagger
+-   xUnit
+-   WebApplicationFactory
 -   InMemory Database
 
 ------------------------------------------------------------------------
@@ -53,32 +54,36 @@ Possui: - Criação de rotas com múltiplos pontos\
 
 ### 1. 🚗 Veículos
 
-Cada veículo inclui: - Peso máximo\
-- Volume máximo\
-- Altura máxima\
-- Autonomia\
-- Custo por km e hora\
+Cada veículo inclui: 
+- Peso máximo
+- Volume máximo
+- Altura máxima
+- Autonomia
+- Custo por km e hora
 - Tipo (Carro, Van, Caminhão etc.)
 
 ### 2. 🗺 Rotas com múltiplos pontos
 
-Inclui waypoints com: - Latitude\
-- Longitude\
+Inclui waypoints com: 
+- Latitude
+- Longitude
 - Ordem da parada
 
 ### 3. 🎯 Cálculo Inteligente
 
-Realiza: - Distância total (Haversine)\
-- Tempo estimado\
-- Custos avançados\
+Realiza: 
+- Distância total (Haversine)
+- Tempo estimado
+- Custos avançados
 - Restrições reais (peso, volume, autonomia)
 
 ### 4. 📊 Histórico automático
 
-Armazena: - Distância\
-- Tempo\
-- Custo\
-- Caminho serializado\
+Armazena: 
+- Distância
+- Tempo
+- Custo
+- Caminho serializado
 - Data/Hora
 
 ### 5. 🧪 Validações robustas
@@ -87,8 +92,8 @@ FluentValidation garantindo integridade de dados.
 
 ### 6. 🧩 Testes Automatizados
 
--   Testes de integração\
--   Testes unitários\
+-   Testes de integração
+-   Testes unitários
 -   Banco InMemory
 
 ------------------------------------------------------------------------
@@ -100,7 +105,8 @@ FluentValidation garantindo integridade de dados.
     ├── Rota.Api/              
     │   ├── Domain/              
     │   ├── Data/                
-    │   ├── Dtos/                
+    │   ├── Dtos/
+        ├── Services/                
     │   ├── Validators/          
     │   └── Program.cs           
     │
@@ -162,7 +168,8 @@ FluentValidation garantindo integridade de dados.
 
     dotnet run
 
-Acesse Swagger: - http://localhost:5000/swagger\
+Acesse Swagger: 
+- http://localhost:5000/swagger
 - https://localhost:7000/swagger
 
 ------------------------------------------------------------------------
@@ -174,36 +181,74 @@ Acesse Swagger: - http://localhost:5000/swagger\
 
 ------------------------------------------------------------------------
 
+## 📈 Cobertura de Código (Coverlet + ReportGenerator)
+
+A cobertura está ativada diretamente no Rota.Tests.csproj.
+
+### 🟦 1. Executar testes com cobertura
+
+    dotnet test
+
+### Isso cria a pasta:
+
+
+```bash
+coverage/
+  coverage.json
+  coverage.opencover.xml
+  coverage.info
+  ```
+### 🟩 2. Instalar o ReportGenerator (uma única vez)
+
+    dotnet tool install -g dotnet-reportgenerator-globaltool
+
+
+### 🟩 3. Gerar o relatório HTML
+
+    reportgenerator -reports:"coverage/coverage.opencover.xml" -targetdir:"coverage-report" -reporttypes:Html"
+
+Abra:
+
+    coverage-report/index.html
+
+Você verá:
+
+- ✔ Linhas cobertas
+- ✔ Linhas não cobertas
+- ✔ Análise por classe
+- ✔ Percentual geral
+------------------------------------------------------------------------
+
 ## 📦 Modelos
 
 ### Vehicle
 
--   Peso máximo\
--   Volume máximo\
--   Altura\
--   Autonomia\
+-   Peso máximo
+-   Volume máximo
+-   Altura
+-   Autonomia
 -   Custos
 
 ### RouteRequest
 
--   Peso\
--   Volume\
--   Veículo\
+-   Peso
+-   Volume
+-   Veículo
 -   Waypoints
 
 ### RouteResult
 
--   Distância\
--   Tempo\
--   Custo final\
+-   Distância
+-   Tempo
+-   Custo final
 -   Caminho
 
 ------------------------------------------------------------------------
 
 ## 🤝 Contribuição
 
-1.  Crie uma branch\
-2.  Commits semânticos\
+1.  Crie uma branch
+2.  Commits semânticos
 3.  Abra PR
 
 Pull requests são bem-vindos!
@@ -218,7 +263,8 @@ MIT License.
 
 ## 🎉 Obrigado por conferir!
 
-Se quiser, posso gerar: - CI/CD\
-- Dashboard React\
-- Deploy Azure\
+Se quiser, posso gerar: 
+- CI/CD
+- Dashboard React
+- Deploy Azure
 - Algoritmos avançados
