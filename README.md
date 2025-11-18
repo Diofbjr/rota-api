@@ -106,16 +106,18 @@ FluentValidation garantindo integridade de dados.
     │   ├── Domain/              
     │   ├── Data/                
     │   ├── Dtos/
-        ├── Services/                
+    │   ├── Services/                
     │   ├── Validators/          
     │   └── Program.cs           
     │
-    └── Rota.Tests/              
-        ├── IntegrationTests/
-        ├── UnitTests/
-        ├── TestServerFactory.cs
-        └── Usings.cs
-
+    ├── Rota.Tests/              
+    │   ├── IntegrationTests/
+    │   ├── UnitTests/
+    │   ├── TestServerFactory.cs
+    │   └── Usings.cs
+    │
+    └──coverage
+    
 ------------------------------------------------------------------------
 
 ## 📡 Endpoints Principais
