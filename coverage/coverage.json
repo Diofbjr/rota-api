@@ -1,0 +1,1918 @@
+{
+  "rota.api.dll": {
+    "D:\\Repositorios\\rota-api\\rota.api\\Program.cs": {
+      "Program": {
+        "System.Void Program::<Main>$(System.String[])": {
+          "Lines": {
+            "11": 2,
+            "15": 2,
+            "16": 2,
+            "18": 2,
+            "19": 2,
+            "25": 2,
+            "26": 2,
+            "32": 2,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "42": 2,
+            "43": 2,
+            "44": 2,
+            "45": 4,
+            "49": 2,
+            "53": 2,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "61": 2,
+            "65": 2,
+            "71": 2,
+            "73": 2,
+            "74": 0,
+            "75": 0,
+            "76": 2,
+            "78": 2,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 2,
+            "84": 2,
+            "85": 2,
+            "86": 2,
+            "87": 2,
+            "88": 2,
+            "89": 2,
+            "90": 2,
+            "91": 2,
+            "92": 2,
+            "93": 2,
+            "94": 2,
+            "95": 2,
+            "96": 2,
+            "97": 2,
+            "98": 2,
+            "99": 2,
+            "100": 2,
+            "101": 2,
+            "102": 2,
+            "103": 2,
+            "104": 4,
+            "106": 2,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 2,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 2,
+            "122": 0,
+            "123": 2,
+            "124": 0,
+            "125": 2,
+            "127": 2,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 2,
+            "132": 0,
+            "133": 0,
+            "134": 2,
+            "135": 0,
+            "136": 2,
+            "142": 2,
+            "144": 2,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 2,
+            "152": 2,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "159": 2,
+            "160": 0,
+            "161": 2,
+            "163": 2,
+            "164": 1,
+            "165": 1,
+            "166": 1,
+            "167": 0,
+            "168": 2,
+            "169": 1,
+            "170": 1,
+            "171": 1,
+            "172": 1,
+            "173": 1,
+            "174": 1,
+            "175": 1,
+            "176": 2,
+            "177": 2,
+            "178": 2,
+            "179": 2,
+            "180": 2,
+            "181": 2,
+            "182": 1,
+            "183": 2,
+            "184": 1,
+            "185": 1,
+            "186": 2,
+            "187": 1,
+            "188": 3,
+            "190": 2,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 2,
+            "196": 0,
+            "197": 0,
+            "198": 0,
+            "199": 2,
+            "200": 0,
+            "201": 0,
+            "202": 2,
+            "203": 0,
+            "204": 0,
+            "205": 0,
+            "206": 0,
+            "207": 0,
+            "208": 2,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "212": 0,
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "216": 2,
+            "217": 0,
+            "218": 2,
+            "219": 0,
+            "220": 2,
+            "222": 2,
+            "223": 0,
+            "224": 0,
+            "225": 0,
+            "226": 0,
+            "227": 2,
+            "228": 0,
+            "229": 0,
+            "230": 2,
+            "231": 0,
+            "232": 2,
+            "238": 2,
+            "239": 1,
+            "240": 1,
+            "241": 1,
+            "242": 1,
+            "243": 1,
+            "244": 2,
+            "245": 1,
+            "246": 2,
+            "247": 2,
+            "248": 1,
+            "249": 1,
+            "250": 2,
+            "251": 0,
+            "252": 0,
+            "253": 2,
+            "254": 0,
+            "255": 2,
+            "256": 1,
+            "257": 1,
+            "258": 1,
+            "259": 2,
+            "260": 3,
+            "266": 2,
+            "268": 2,
+            "269": 0,
+            "270": 0,
+            "271": 0,
+            "272": 0,
+            "273": 2,
+            "275": 2,
+            "276": 0,
+            "277": 0,
+            "278": 0,
+            "279": 0,
+            "280": 2,
+            "281": 0,
+            "282": 2,
+            "286": 2
+          },
+          "Branches": [
+            {
+              "Line": 32,
+              "Offset": 153,
+              "EndOffset": 155,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 153,
+              "EndOffset": 188,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 53,
+              "Offset": 263,
+              "EndOffset": 265,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 53,
+              "Offset": 263,
+              "EndOffset": 283,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "Program/<>c/<<<Main>$>b__0_10>d": {
+        "System.Void Program/<>c/<<<Main>$>b__0_10>d::MoveNext()": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 166,
+              "Offset": 185,
+              "EndOffset": 187,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 166,
+              "Offset": 185,
+              "EndOffset": 209,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Program/<>c/<<<Main>$>b__0_11>d": {
+        "System.Void Program/<>c/<<<Main>$>b__0_11>d::MoveNext()": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 193,
+              "Offset": 227,
+              "EndOffset": 229,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 193,
+              "Offset": 227,
+              "EndOffset": 251,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 200,
+              "Offset": 583,
+              "EndOffset": 585,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 200,
+              "Offset": 583,
+              "EndOffset": 597,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Program/<>c/<<<Main>$>b__0_12>d": {
+        "System.Void Program/<>c/<<<Main>$>b__0_12>d::MoveNext()": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 225,
+              "Offset": 193,
+              "EndOffset": 195,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 225,
+              "Offset": 193,
+              "EndOffset": 207,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Program/<>c/<<<Main>$>b__0_13>d": {
+        "System.Void Program/<>c/<<<Main>$>b__0_13>d::MoveNext()": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 245,
+              "Offset": 433,
+              "EndOffset": 435,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 245,
+              "Offset": 433,
+              "EndOffset": 447,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Program/<>c/<<<Main>$>b__0_15>d": {
+        "System.Void Program/<>c/<<<Main>$>b__0_15>d::MoveNext()": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 281,
+              "Offset": 353,
+              "EndOffset": 355,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 281,
+              "Offset": 353,
+              "EndOffset": 368,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Program/<>c/<<<Main>$>b__0_4>d": {
+        "System.Void Program/<>c/<<<Main>$>b__0_4>d::MoveNext()": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 81,
+              "Offset": 175,
+              "EndOffset": 177,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 81,
+              "Offset": 175,
+              "EndOffset": 190,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Program/<>c/<<<Main>$>b__0_6>d": {
+        "System.Void Program/<>c/<<<Main>$>b__0_6>d::MoveNext()": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 109,
+              "Offset": 193,
+              "EndOffset": 195,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 109,
+              "Offset": 193,
+              "EndOffset": 207,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Program/<>c/<<<Main>$>b__0_7>d": {
+        "System.Void Program/<>c/<<<Main>$>b__0_7>d::MoveNext()": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 130,
+              "Offset": 193,
+              "EndOffset": 195,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 130,
+              "Offset": 193,
+              "EndOffset": 207,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Program/<>c/<<<Main>$>b__0_9>d": {
+        "System.Void Program/<>c/<<<Main>$>b__0_9>d::MoveNext()": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 160,
+              "Offset": 477,
+              "EndOffset": 479,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 160,
+              "Offset": 477,
+              "EndOffset": 492,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "D:\\Repositorios\\rota-api\\rota.api\\Validators\\CreateRouteRequestValidator.cs": {
+      "Rota.Api.Validators.CreateRouteRequestValidator": {
+        "System.Void Rota.Api.Validators.CreateRouteRequestValidator::.ctor()": {
+          "Lines": {
+            "12": 6,
+            "13": 6,
+            "14": 6,
+            "15": 6,
+            "17": 6,
+            "18": 6,
+            "20": 6,
+            "21": 6,
+            "22": 6
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Repositorios\\rota-api\\rota.api\\Validators\\UpdateRouteRequestValidator.cs": {
+      "Rota.Api.Validators.UpdateRouteRequestValidator": {
+        "System.Void Rota.Api.Validators.UpdateRouteRequestValidator::.ctor()": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "13": 0,
+            "14": 0,
+            "16": 0,
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Repositorios\\rota-api\\rota.api\\Validators\\UpdateVehicleValidator.cs": {
+      "Rota.Api.Validators.UpdateVehicleValidator": {
+        "System.Void Rota.Api.Validators.UpdateVehicleValidator::.ctor()": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "12": 0,
+            "13": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Repositorios\\rota-api\\rota.api\\Validators\\VehicleValidator.cs": {
+      "Rota.Api.Validators.CreateVehicleValidator": {
+        "System.Void Rota.Api.Validators.CreateVehicleValidator::.ctor()": {
+          "Lines": {
+            "12": 4,
+            "13": 4,
+            "14": 4,
+            "16": 4,
+            "17": 4,
+            "19": 4,
+            "20": 4
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Repositorios\\rota-api\\rota.api\\Validators\\WaypointValidator.cs": {
+      "Rota.Api.Validators.WaypointValidator": {
+        "System.Void Rota.Api.Validators.WaypointValidator::.ctor()": {
+          "Lines": {
+            "12": 10,
+            "13": 10,
+            "14": 10,
+            "15": 10,
+            "16": 10,
+            "18": 10,
+            "19": 10,
+            "20": 10,
+            "22": 10,
+            "23": 10,
+            "24": 10
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Repositorios\\rota-api\\rota.api\\Services\\DistanceService.cs": {
+      "Rota.Api.Services.DistanceService": {
+        "System.Double Rota.Api.Services.DistanceService::HaversineDistanceKm(System.Double,System.Double,System.Double,System.Double)": {
+          "Lines": {
+            "10": 1,
+            "13": 1,
+            "14": 1,
+            "16": 1,
+            "17": 1,
+            "18": 1,
+            "20": 1,
+            "21": 1,
+            "22": 1
+          },
+          "Branches": []
+        },
+        "System.Double Rota.Api.Services.DistanceService::TotalDistanceKm(System.Collections.Generic.IEnumerable`1<Rota.Api.Domain.Waypoint>)": {
+          "Lines": {
+            "25": 1,
+            "26": 3,
+            "27": 1,
+            "28": 4,
+            "29": 1,
+            "30": 1,
+            "31": 1,
+            "32": 1,
+            "33": 1,
+            "34": 1,
+            "35": 1
+          },
+          "Branches": [
+            {
+              "Line": 28,
+              "Offset": 138,
+              "EndOffset": 58,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 28,
+              "Offset": 138,
+              "EndOffset": 140,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Double Rota.Api.Services.DistanceService::<HaversineDistanceKm>g__ToRad|1_0(System.Double)": {
+          "Lines": {
+            "11": 4
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Repositorios\\rota-api\\rota.api\\Services\\RouteCalculator.cs": {
+      "Rota.Api.Services.RouteCalculationException": {
+        "System.Void Rota.Api.Services.RouteCalculationException::.ctor(System.String)": {
+          "Lines": {
+            "7": 3
+          },
+          "Branches": []
+        }
+      },
+      "Rota.Api.Services.RouteCalculator": {
+        "Rota.Api.Domain.RouteResult Rota.Api.Services.RouteCalculator::Calculate(Rota.Api.Domain.RouteRequest)": {
+          "Lines": {
+            "21": 1,
+            "22": 1,
+            "23": 0,
+            "26": 1,
+            "29": 1,
+            "30": 1,
+            "33": 1,
+            "34": 1,
+            "35": 1,
+            "36": 1,
+            "38": 0,
+            "39": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "66": 0,
+            "67": 0
+          },
+          "Branches": [
+            {
+              "Line": 22,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 22,
+              "Offset": 7,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 30,
+              "EndOffset": 32,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 30,
+              "EndOffset": 43,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 33,
+              "Offset": 95,
+              "EndOffset": 100,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 35,
+              "Offset": 124,
+              "EndOffset": 126,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 35,
+              "Offset": 124,
+              "EndOffset": 221,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 244,
+              "EndOffset": 246,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 244,
+              "EndOffset": 341,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 359,
+              "EndOffset": 361,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 359,
+              "EndOffset": 372,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 95,
+              "EndOffset": 373,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 394,
+              "EndOffset": 396,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 394,
+              "EndOffset": 466,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 54,
+              "Offset": 520,
+              "EndOffset": 522,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 54,
+              "Offset": 520,
+              "EndOffset": 534,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Rota.Api.Services.RouteCalculator::.ctor(Rota.Api.Services.IDistanceService)": {
+          "Lines": {
+            "13": 1,
+            "15": 1,
+            "16": 1,
+            "17": 1,
+            "18": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Repositorios\\rota-api\\rota.api\\Migrations\\20251114145607_InitialCreate.cs": {
+      "Rota.Api.Migrations.InitialCreate": {
+        "System.Void Rota.Api.Migrations.InitialCreate::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0
+          },
+          "Branches": []
+        },
+        "System.Void Rota.Api.Migrations.InitialCreate::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "92": 0,
+            "93": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Repositorios\\rota-api\\rota.api\\Migrations\\20251114145607_InitialCreate.Designer.cs": {
+      "Rota.Api.Migrations.InitialCreate": {
+        "System.Void Rota.Api.Migrations.InitialCreate::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "138": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Repositorios\\rota-api\\rota.api\\Migrations\\20251114163151_AddVehicles.cs": {
+      "Rota.Api.Migrations.AddVehicles": {
+        "System.Void Rota.Api.Migrations.AddVehicles::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0
+          },
+          "Branches": []
+        },
+        "System.Void Rota.Api.Migrations.AddVehicles::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "61": 0,
+            "62": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Repositorios\\rota-api\\rota.api\\Migrations\\20251114163151_AddVehicles.Designer.cs": {
+      "Rota.Api.Migrations.AddVehicles": {
+        "System.Void Rota.Api.Migrations.AddVehicles::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "180": 0,
+            "181": 0,
+            "182": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "189": 0,
+            "190": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "197": 0,
+            "199": 0,
+            "200": 0,
+            "201": 0,
+            "202": 0,
+            "204": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Repositorios\\rota-api\\rota.api\\Migrations\\RotaDbContextModelSnapshot.cs": {
+      "Rota.Api.Migrations.RotaDbContextModelSnapshot": {
+        "System.Void Rota.Api.Migrations.RotaDbContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "23": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "196": 0,
+            "197": 0,
+            "198": 0,
+            "199": 0,
+            "201": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Repositorios\\rota-api\\rota.api\\DTOs\\CreateRouteRequestDto.cs": {
+      "Rota.Api.Dtos.CreateRouteRequestDto": {
+        "System.String Rota.Api.Dtos.CreateRouteRequestDto::get_Name()": {
+          "Lines": {
+            "11": 19
+          },
+          "Branches": []
+        },
+        "System.String Rota.Api.Dtos.CreateRouteRequestDto::get_Optimization()": {
+          "Lines": {
+            "12": 8
+          },
+          "Branches": []
+        },
+        "System.Double Rota.Api.Dtos.CreateRouteRequestDto::get_TotalLoadWeightKg()": {
+          "Lines": {
+            "14": 13
+          },
+          "Branches": []
+        },
+        "System.Double Rota.Api.Dtos.CreateRouteRequestDto::get_TotalLoadVolumeM3()": {
+          "Lines": {
+            "15": 13
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> Rota.Api.Dtos.CreateRouteRequestDto::get_VehicleId()": {
+          "Lines": {
+            "17": 2
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Rota.Api.Dtos.WaypointDto> Rota.Api.Dtos.CreateRouteRequestDto::get_Waypoints()": {
+          "Lines": {
+            "19": 19
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Repositorios\\rota-api\\rota.api\\DTOs\\CreateVehicleDto.cs": {
+      "Rota.Api.Dtos.CreateVehicleDto": {
+        "System.String Rota.Api.Dtos.CreateVehicleDto::get_Name()": {
+          "Lines": {
+            "9": 18
+          },
+          "Branches": []
+        },
+        "System.Double Rota.Api.Dtos.CreateVehicleDto::get_MaxWeightKg()": {
+          "Lines": {
+            "11": 4
+          },
+          "Branches": []
+        },
+        "System.Double Rota.Api.Dtos.CreateVehicleDto::get_MaxVolumeM3()": {
+          "Lines": {
+            "12": 12
+          },
+          "Branches": []
+        },
+        "System.Double Rota.Api.Dtos.CreateVehicleDto::get_MaxLoadWeightKg()": {
+          "Lines": {
+            "13": 12
+          },
+          "Branches": []
+        },
+        "System.Double Rota.Api.Dtos.CreateVehicleDto::get_CostPerKm()": {
+          "Lines": {
+            "15": 12
+          },
+          "Branches": []
+        },
+        "System.Double Rota.Api.Dtos.CreateVehicleDto::get_CostPerHour()": {
+          "Lines": {
+            "16": 4
+          },
+          "Branches": []
+        },
+        "System.Double Rota.Api.Dtos.CreateVehicleDto::get_DriverCostPerHour()": {
+          "Lines": {
+            "17": 4
+          },
+          "Branches": []
+        },
+        "System.Double Rota.Api.Dtos.CreateVehicleDto::get_MaxDistanceWithoutRefuelKm()": {
+          "Lines": {
+            "19": 4
+          },
+          "Branches": []
+        },
+        "System.Double Rota.Api.Dtos.CreateVehicleDto::get_MaxHeightM()": {
+          "Lines": {
+            "20": 4
+          },
+          "Branches": []
+        },
+        "System.String Rota.Api.Dtos.CreateVehicleDto::get_VehicleType()": {
+          "Lines": {
+            "22": 10
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Repositorios\\rota-api\\rota.api\\DTOs\\UpdateRouteRequestDto.cs": {
+      "Rota.Api.Dtos.UpdateRouteRequestDto": {
+        "System.String Rota.Api.Dtos.UpdateRouteRequestDto::get_Name()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.String Rota.Api.Dtos.UpdateRouteRequestDto::get_Optimization()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Double Rota.Api.Dtos.UpdateRouteRequestDto::get_TotalLoadWeightKg()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Double Rota.Api.Dtos.UpdateRouteRequestDto::get_TotalLoadVolumeM3()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> Rota.Api.Dtos.UpdateRouteRequestDto::get_VehicleId()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Rota.Api.Dtos.WaypointDto> Rota.Api.Dtos.UpdateRouteRequestDto::get_Waypoints()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Repositorios\\rota-api\\rota.api\\DTOs\\WaypointDto.cs": {
+      "Rota.Api.Dtos.WaypointDto": {
+        "System.Int32 Rota.Api.Dtos.WaypointDto::get_Order()": {
+          "Lines": {
+            "10": 32
+          },
+          "Branches": []
+        },
+        "System.Double Rota.Api.Dtos.WaypointDto::get_Latitude()": {
+          "Lines": {
+            "11": 32
+          },
+          "Branches": []
+        },
+        "System.Double Rota.Api.Dtos.WaypointDto::get_Longitude()": {
+          "Lines": {
+            "12": 32
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Repositorios\\rota-api\\rota.api\\Domain\\RouteRequest.cs": {
+      "Rota.Api.Domain.RouteRequest": {
+        "System.Int32 Rota.Api.Domain.RouteRequest::get_Id()": {
+          "Lines": {
+            "8": 2
+          },
+          "Branches": []
+        },
+        "System.String Rota.Api.Domain.RouteRequest::get_Name()": {
+          "Lines": {
+            "9": 4
+          },
+          "Branches": []
+        },
+        "System.String Rota.Api.Domain.RouteRequest::get_Optimization()": {
+          "Lines": {
+            "12": 4
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Rota.Api.Domain.Waypoint> Rota.Api.Domain.RouteRequest::get_Waypoints()": {
+          "Lines": {
+            "15": 7
+          },
+          "Branches": []
+        },
+        "System.Double Rota.Api.Domain.RouteRequest::get_TotalLoadWeightKg()": {
+          "Lines": {
+            "18": 4
+          },
+          "Branches": []
+        },
+        "System.Double Rota.Api.Domain.RouteRequest::get_TotalLoadVolumeM3()": {
+          "Lines": {
+            "19": 2
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> Rota.Api.Domain.RouteRequest::get_VehicleId()": {
+          "Lines": {
+            "23": 2
+          },
+          "Branches": []
+        },
+        "Rota.Api.Domain.Vehicle Rota.Api.Domain.RouteRequest::get_Vehicle()": {
+          "Lines": {
+            "24": 4
+          },
+          "Branches": []
+        },
+        "System.DateTime Rota.Api.Domain.RouteRequest::get_CreatedAt()": {
+          "Lines": {
+            "27": 3
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<Rota.Api.Domain.RouteResult> Rota.Api.Domain.RouteRequest::get_Results()": {
+          "Lines": {
+            "29": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Repositorios\\rota-api\\rota.api\\Domain\\RouteResult.cs": {
+      "Rota.Api.Domain.RouteResult": {
+        "System.Int32 Rota.Api.Domain.RouteResult::get_Id()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Double Rota.Api.Domain.RouteResult::get_TotalDistanceKm()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Double Rota.Api.Domain.RouteResult::get_TotalTimeMinutes()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Double> Rota.Api.Domain.RouteResult::get_TotalCost()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.String Rota.Api.Domain.RouteResult::get_SerializedPath()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime Rota.Api.Domain.RouteResult::get_CalculatedAt()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Rota.Api.Domain.RouteResult::get_RouteRequestId()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "Rota.Api.Domain.RouteRequest Rota.Api.Domain.RouteResult::get_RouteRequest()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Repositorios\\rota-api\\rota.api\\Domain\\Vehicle.cs": {
+      "Rota.Api.Domain.Vehicle": {
+        "System.Int32 Rota.Api.Domain.Vehicle::get_Id()": {
+          "Lines": {
+            "7": 4
+          },
+          "Branches": []
+        },
+        "System.String Rota.Api.Domain.Vehicle::get_Name()": {
+          "Lines": {
+            "8": 7
+          },
+          "Branches": []
+        },
+        "System.Double Rota.Api.Domain.Vehicle::get_MaxWeightKg()": {
+          "Lines": {
+            "11": 4
+          },
+          "Branches": []
+        },
+        "System.Double Rota.Api.Domain.Vehicle::get_MaxVolumeM3()": {
+          "Lines": {
+            "12": 4
+          },
+          "Branches": []
+        },
+        "System.Double Rota.Api.Domain.Vehicle::get_MaxLoadWeightKg()": {
+          "Lines": {
+            "13": 6
+          },
+          "Branches": []
+        },
+        "System.Double Rota.Api.Domain.Vehicle::get_CostPerKm()": {
+          "Lines": {
+            "17": 4
+          },
+          "Branches": []
+        },
+        "System.Double Rota.Api.Domain.Vehicle::get_CostPerHour()": {
+          "Lines": {
+            "18": 4
+          },
+          "Branches": []
+        },
+        "System.Double Rota.Api.Domain.Vehicle::get_DriverCostPerHour()": {
+          "Lines": {
+            "19": 4
+          },
+          "Branches": []
+        },
+        "System.Double Rota.Api.Domain.Vehicle::get_MaxDistanceWithoutRefuelKm()": {
+          "Lines": {
+            "23": 4
+          },
+          "Branches": []
+        },
+        "System.Double Rota.Api.Domain.Vehicle::get_MaxHeightM()": {
+          "Lines": {
+            "24": 4
+          },
+          "Branches": []
+        },
+        "System.String Rota.Api.Domain.Vehicle::get_VehicleType()": {
+          "Lines": {
+            "27": 7
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<Rota.Api.Domain.RouteRequest> Rota.Api.Domain.Vehicle::get_RouteRequests()": {
+          "Lines": {
+            "30": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Repositorios\\rota-api\\rota.api\\Domain\\Waypoint.cs": {
+      "Rota.Api.Domain.Waypoint": {
+        "System.Int32 Rota.Api.Domain.Waypoint::get_Id()": {
+          "Lines": {
+            "11": 2
+          },
+          "Branches": []
+        },
+        "System.Int32 Rota.Api.Domain.Waypoint::get_Order()": {
+          "Lines": {
+            "12": 6
+          },
+          "Branches": []
+        },
+        "System.Double Rota.Api.Domain.Waypoint::get_Latitude()": {
+          "Lines": {
+            "14": 6
+          },
+          "Branches": []
+        },
+        "System.Double Rota.Api.Domain.Waypoint::get_Longitude()": {
+          "Lines": {
+            "15": 6
+          },
+          "Branches": []
+        },
+        "System.Int32 Rota.Api.Domain.Waypoint::get_RouteRequestId()": {
+          "Lines": {
+            "19": 2
+          },
+          "Branches": []
+        },
+        "Rota.Api.Domain.RouteRequest Rota.Api.Domain.Waypoint::get_RouteRequest()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Repositorios\\rota-api\\rota.api\\Data\\RotaDbContext.cs": {
+      "Rota.Api.Data.RotaDbContext": {
+        "Microsoft.EntityFrameworkCore.DbSet`1<Rota.Api.Domain.RouteRequest> Rota.Api.Data.RotaDbContext::get_RouteRequests()": {
+          "Lines": {
+            "14": 8
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Rota.Api.Domain.Waypoint> Rota.Api.Data.RotaDbContext::get_Waypoints()": {
+          "Lines": {
+            "15": 6
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Rota.Api.Domain.RouteResult> Rota.Api.Data.RotaDbContext::get_RouteResults()": {
+          "Lines": {
+            "16": 6
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Rota.Api.Domain.Vehicle> Rota.Api.Data.RotaDbContext::get_Vehicles()": {
+          "Lines": {
+            "17": 8
+          },
+          "Branches": []
+        },
+        "System.Void Rota.Api.Data.RotaDbContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "22": 1,
+            "23": 1,
+            "26": 1,
+            "27": 1,
+            "28": 1,
+            "29": 1,
+            "30": 1,
+            "34": 1,
+            "35": 1,
+            "36": 1,
+            "37": 1,
+            "38": 1,
+            "42": 1,
+            "43": 1,
+            "44": 1,
+            "45": 1,
+            "46": 1,
+            "50": 1,
+            "51": 1,
+            "52": 1,
+            "56": 1,
+            "57": 1,
+            "58": 1,
+            "60": 1
+          },
+          "Branches": []
+        },
+        "System.Void Rota.Api.Data.RotaDbContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<Rota.Api.Data.RotaDbContext>)": {
+          "Lines": {
+            "9": 6,
+            "10": 6,
+            "11": 6
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

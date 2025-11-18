@@ -148,10 +148,7 @@ _TeamCity*
 .axoCover/*
 !.axoCover/settings.json
 
-# Coverlet is a free, cross platform Code Coverage Tool
-coverage*.json
-coverage*.xml
-coverage*.info
+
 
 # Visual Studio code coverage results
 *.coverage
@@ -454,6 +451,7 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+coverage-report
 
 # content below from: https://github.com/github/gitignore/blob/main/Global/Windows.gitignore
 # Windows thumbnail cache files

@@ -1,0 +1,1362 @@
+SF:D:\Repositorios\rota-api\rota.api\Program.cs
+FN:10,System.Void Program::<Main>$(System.String[])
+FNDA:2,System.Void Program::<Main>$(System.String[])
+DA:11,2
+DA:15,2
+DA:16,2
+DA:18,2
+DA:19,2
+DA:25,2
+DA:26,2
+DA:32,2
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:42,2
+DA:43,2
+DA:44,2
+DA:45,4
+DA:49,2
+DA:53,2
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:61,2
+DA:65,2
+DA:71,2
+DA:73,2
+DA:74,0
+DA:75,0
+DA:76,2
+DA:78,2
+DA:79,0
+DA:80,0
+DA:81,0
+DA:82,2
+DA:84,2
+DA:85,2
+DA:86,2
+DA:87,2
+DA:88,2
+DA:89,2
+DA:90,2
+DA:91,2
+DA:92,2
+DA:93,2
+DA:94,2
+DA:95,2
+DA:96,2
+DA:97,2
+DA:98,2
+DA:99,2
+DA:100,2
+DA:101,2
+DA:102,2
+DA:103,2
+DA:104,4
+DA:106,2
+DA:107,0
+DA:108,0
+DA:109,0
+DA:110,2
+DA:111,0
+DA:112,0
+DA:113,0
+DA:114,0
+DA:115,0
+DA:116,0
+DA:117,0
+DA:118,0
+DA:119,0
+DA:120,0
+DA:121,2
+DA:122,0
+DA:123,2
+DA:124,0
+DA:125,2
+DA:127,2
+DA:128,0
+DA:129,0
+DA:130,0
+DA:131,2
+DA:132,0
+DA:133,0
+DA:134,2
+DA:135,0
+DA:136,2
+DA:142,2
+DA:144,2
+DA:145,0
+DA:146,0
+DA:147,0
+DA:148,0
+DA:149,0
+DA:150,2
+DA:152,2
+DA:153,0
+DA:154,0
+DA:155,0
+DA:156,0
+DA:157,0
+DA:158,0
+DA:159,2
+DA:160,0
+DA:161,2
+DA:163,2
+DA:164,1
+DA:165,1
+DA:166,1
+DA:167,0
+DA:168,2
+DA:169,1
+DA:170,1
+DA:171,1
+DA:172,1
+DA:173,1
+DA:174,1
+DA:175,1
+DA:176,2
+DA:177,2
+DA:178,2
+DA:179,2
+DA:180,2
+DA:181,2
+DA:182,1
+DA:183,2
+DA:184,1
+DA:185,1
+DA:186,2
+DA:187,1
+DA:188,3
+DA:190,2
+DA:191,0
+DA:192,0
+DA:193,0
+DA:194,0
+DA:195,2
+DA:196,0
+DA:197,0
+DA:198,0
+DA:199,2
+DA:200,0
+DA:201,0
+DA:202,2
+DA:203,0
+DA:204,0
+DA:205,0
+DA:206,0
+DA:207,0
+DA:208,2
+DA:209,0
+DA:210,0
+DA:211,0
+DA:212,0
+DA:213,0
+DA:214,0
+DA:215,0
+DA:216,2
+DA:217,0
+DA:218,2
+DA:219,0
+DA:220,2
+DA:222,2
+DA:223,0
+DA:224,0
+DA:225,0
+DA:226,0
+DA:227,2
+DA:228,0
+DA:229,0
+DA:230,2
+DA:231,0
+DA:232,2
+DA:238,2
+DA:239,1
+DA:240,1
+DA:241,1
+DA:242,1
+DA:243,1
+DA:244,2
+DA:245,1
+DA:246,2
+DA:247,2
+DA:248,1
+DA:249,1
+DA:250,2
+DA:251,0
+DA:252,0
+DA:253,2
+DA:254,0
+DA:255,2
+DA:256,1
+DA:257,1
+DA:258,1
+DA:259,2
+DA:260,3
+DA:266,2
+DA:268,2
+DA:269,0
+DA:270,0
+DA:271,0
+DA:272,0
+DA:273,2
+DA:275,2
+DA:276,0
+DA:277,0
+DA:278,0
+DA:279,0
+DA:280,2
+DA:281,0
+DA:282,2
+DA:286,2
+BRDA:32,153,0,0
+BRDA:32,153,1,2
+BRDA:53,263,0,0
+BRDA:53,263,1,2
+LF:210
+LH:121
+BRF:24
+BRH:4
+FNF:1
+FNH:1
+end_of_record
+SF:D:\Repositorios\rota-api\rota.api\Validators\CreateRouteRequestValidator.cs
+FN:11,System.Void Rota.Api.Validators.CreateRouteRequestValidator::.ctor()
+FNDA:6,System.Void Rota.Api.Validators.CreateRouteRequestValidator::.ctor()
+DA:12,6
+DA:13,6
+DA:14,6
+DA:15,6
+DA:17,6
+DA:18,6
+DA:20,6
+DA:21,6
+DA:22,6
+LF:9
+LH:9
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:D:\Repositorios\rota-api\rota.api\Validators\UpdateRouteRequestValidator.cs
+FN:7,System.Void Rota.Api.Validators.UpdateRouteRequestValidator::.ctor()
+FNDA:0,System.Void Rota.Api.Validators.UpdateRouteRequestValidator::.ctor()
+DA:8,0
+DA:9,0
+DA:10,0
+DA:11,0
+DA:13,0
+DA:14,0
+DA:16,0
+DA:17,0
+DA:19,0
+DA:20,0
+DA:21,0
+LF:11
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:D:\Repositorios\rota-api\rota.api\Validators\UpdateVehicleValidator.cs
+FN:7,System.Void Rota.Api.Validators.UpdateVehicleValidator::.ctor()
+FNDA:0,System.Void Rota.Api.Validators.UpdateVehicleValidator::.ctor()
+DA:8,0
+DA:9,0
+DA:10,0
+DA:12,0
+DA:13,0
+DA:15,0
+DA:16,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:D:\Repositorios\rota-api\rota.api\Validators\VehicleValidator.cs
+FN:11,System.Void Rota.Api.Validators.CreateVehicleValidator::.ctor()
+FNDA:4,System.Void Rota.Api.Validators.CreateVehicleValidator::.ctor()
+DA:12,4
+DA:13,4
+DA:14,4
+DA:16,4
+DA:17,4
+DA:19,4
+DA:20,4
+LF:7
+LH:7
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:D:\Repositorios\rota-api\rota.api\Validators\WaypointValidator.cs
+FN:11,System.Void Rota.Api.Validators.WaypointValidator::.ctor()
+FNDA:10,System.Void Rota.Api.Validators.WaypointValidator::.ctor()
+DA:12,10
+DA:13,10
+DA:14,10
+DA:15,10
+DA:16,10
+DA:18,10
+DA:19,10
+DA:20,10
+DA:22,10
+DA:23,10
+DA:24,10
+LF:11
+LH:11
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:D:\Repositorios\rota-api\rota.api\Services\DistanceService.cs
+FN:9,System.Double Rota.Api.Services.DistanceService::HaversineDistanceKm(System.Double,System.Double,System.Double,System.Double)
+FNDA:1,System.Double Rota.Api.Services.DistanceService::HaversineDistanceKm(System.Double,System.Double,System.Double,System.Double)
+DA:10,1
+DA:13,1
+DA:14,1
+DA:16,1
+DA:17,1
+DA:18,1
+DA:20,1
+DA:21,1
+DA:22,1
+FN:24,System.Double Rota.Api.Services.DistanceService::TotalDistanceKm(System.Collections.Generic.IEnumerable`1<Rota.Api.Domain.Waypoint>)
+FNDA:1,System.Double Rota.Api.Services.DistanceService::TotalDistanceKm(System.Collections.Generic.IEnumerable`1<Rota.Api.Domain.Waypoint>)
+DA:25,1
+DA:26,3
+DA:27,1
+DA:28,4
+DA:29,1
+DA:30,1
+DA:31,1
+DA:32,1
+DA:33,1
+DA:34,1
+DA:35,1
+BRDA:28,138,1,1
+BRDA:28,138,0,1
+FN:10,System.Double Rota.Api.Services.DistanceService::<HaversineDistanceKm>g__ToRad|1_0(System.Double)
+FNDA:4,System.Double Rota.Api.Services.DistanceService::<HaversineDistanceKm>g__ToRad|1_0(System.Double)
+DA:11,4
+LF:21
+LH:21
+BRF:2
+BRH:2
+FNF:3
+FNH:3
+end_of_record
+SF:D:\Repositorios\rota-api\rota.api\Services\RouteCalculator.cs
+FN:6,System.Void Rota.Api.Services.RouteCalculationException::.ctor(System.String)
+FNDA:3,System.Void Rota.Api.Services.RouteCalculationException::.ctor(System.String)
+DA:7,3
+FN:20,Rota.Api.Domain.RouteResult Rota.Api.Services.RouteCalculator::Calculate(Rota.Api.Domain.RouteRequest)
+FNDA:1,Rota.Api.Domain.RouteResult Rota.Api.Services.RouteCalculator::Calculate(Rota.Api.Domain.RouteRequest)
+DA:21,1
+DA:22,1
+DA:23,0
+DA:26,1
+DA:29,1
+DA:30,1
+DA:33,1
+DA:34,1
+DA:35,1
+DA:36,1
+DA:38,0
+DA:39,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:66,0
+DA:67,0
+BRDA:22,7,0,1
+BRDA:22,7,1,0
+BRDA:22,30,0,0
+BRDA:22,30,1,1
+BRDA:33,95,0,1
+BRDA:35,124,0,1
+BRDA:35,124,1,0
+BRDA:38,244,0,0
+BRDA:38,244,1,0
+BRDA:41,359,0,0
+BRDA:41,359,1,0
+BRDA:33,95,1,0
+BRDA:47,394,0,0
+BRDA:47,394,1,0
+BRDA:54,520,0,0
+BRDA:54,520,1,0
+FN:12,System.Void Rota.Api.Services.RouteCalculator::.ctor(Rota.Api.Services.IDistanceService)
+FNDA:1,System.Void Rota.Api.Services.RouteCalculator::.ctor(Rota.Api.Services.IDistanceService)
+DA:13,1
+DA:15,1
+DA:16,1
+DA:17,1
+DA:18,1
+LF:41
+LH:15
+BRF:16
+BRH:4
+FNF:3
+FNH:3
+end_of_record
+SF:D:\Repositorios\rota-api\rota.api\Migrations\20251114145607_InitialCreate.cs
+FN:12,System.Void Rota.Api.Migrations.InitialCreate::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+FNDA:0,System.Void Rota.Api.Migrations.InitialCreate::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:80,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:84,0
+FN:87,System.Void Rota.Api.Migrations.InitialCreate::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+FNDA:0,System.Void Rota.Api.Migrations.InitialCreate::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+DA:88,0
+DA:89,0
+DA:90,0
+DA:92,0
+DA:93,0
+DA:95,0
+DA:96,0
+DA:97,0
+LF:76
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:D:\Repositorios\rota-api\rota.api\Migrations\20251114145607_InitialCreate.Designer.cs
+FN:19,System.Void Rota.Api.Migrations.InitialCreate::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+FNDA:0,System.Void Rota.Api.Migrations.InitialCreate::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+DA:20,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:26,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:97,0
+DA:98,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:108,0
+DA:109,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:114,0
+DA:115,0
+DA:116,0
+DA:117,0
+DA:118,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:122,0
+DA:123,0
+DA:125,0
+DA:126,0
+DA:127,0
+DA:128,0
+DA:129,0
+DA:130,0
+DA:131,0
+DA:133,0
+DA:134,0
+DA:135,0
+DA:136,0
+DA:138,0
+LF:110
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:D:\Repositorios\rota-api\rota.api\Migrations\20251114163151_AddVehicles.cs
+FN:11,System.Void Rota.Api.Migrations.AddVehicles::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+FNDA:0,System.Void Rota.Api.Migrations.AddVehicles::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+FN:55,System.Void Rota.Api.Migrations.AddVehicles::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+FNDA:0,System.Void Rota.Api.Migrations.AddVehicles::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:61,0
+DA:62,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:71,0
+LF:51
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:D:\Repositorios\rota-api\rota.api\Migrations\20251114163151_AddVehicles.Designer.cs
+FN:19,System.Void Rota.Api.Migrations.AddVehicles::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+FNDA:0,System.Void Rota.Api.Migrations.AddVehicles::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+DA:20,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:26,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:97,0
+DA:98,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:108,0
+DA:109,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:113,0
+DA:114,0
+DA:115,0
+DA:116,0
+DA:117,0
+DA:118,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:122,0
+DA:123,0
+DA:124,0
+DA:125,0
+DA:126,0
+DA:127,0
+DA:128,0
+DA:129,0
+DA:130,0
+DA:131,0
+DA:133,0
+DA:134,0
+DA:135,0
+DA:136,0
+DA:137,0
+DA:138,0
+DA:139,0
+DA:140,0
+DA:141,0
+DA:142,0
+DA:143,0
+DA:144,0
+DA:145,0
+DA:146,0
+DA:147,0
+DA:148,0
+DA:149,0
+DA:150,0
+DA:151,0
+DA:152,0
+DA:153,0
+DA:154,0
+DA:155,0
+DA:156,0
+DA:157,0
+DA:158,0
+DA:159,0
+DA:160,0
+DA:161,0
+DA:162,0
+DA:164,0
+DA:165,0
+DA:166,0
+DA:167,0
+DA:168,0
+DA:169,0
+DA:170,0
+DA:171,0
+DA:173,0
+DA:174,0
+DA:175,0
+DA:176,0
+DA:177,0
+DA:178,0
+DA:179,0
+DA:180,0
+DA:181,0
+DA:182,0
+DA:184,0
+DA:185,0
+DA:186,0
+DA:187,0
+DA:188,0
+DA:189,0
+DA:190,0
+DA:192,0
+DA:193,0
+DA:194,0
+DA:195,0
+DA:196,0
+DA:197,0
+DA:199,0
+DA:200,0
+DA:201,0
+DA:202,0
+DA:204,0
+LF:173
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:D:\Repositorios\rota-api\rota.api\Migrations\RotaDbContextModelSnapshot.cs
+FN:16,System.Void Rota.Api.Migrations.RotaDbContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+FNDA:0,System.Void Rota.Api.Migrations.RotaDbContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+DA:17,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:23,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:97,0
+DA:98,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:108,0
+DA:109,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:113,0
+DA:114,0
+DA:115,0
+DA:116,0
+DA:117,0
+DA:118,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:122,0
+DA:123,0
+DA:124,0
+DA:125,0
+DA:126,0
+DA:127,0
+DA:128,0
+DA:130,0
+DA:131,0
+DA:132,0
+DA:133,0
+DA:134,0
+DA:135,0
+DA:136,0
+DA:137,0
+DA:138,0
+DA:139,0
+DA:140,0
+DA:141,0
+DA:142,0
+DA:143,0
+DA:144,0
+DA:145,0
+DA:146,0
+DA:147,0
+DA:148,0
+DA:149,0
+DA:150,0
+DA:151,0
+DA:152,0
+DA:153,0
+DA:154,0
+DA:155,0
+DA:156,0
+DA:157,0
+DA:158,0
+DA:159,0
+DA:161,0
+DA:162,0
+DA:163,0
+DA:164,0
+DA:165,0
+DA:166,0
+DA:167,0
+DA:168,0
+DA:170,0
+DA:171,0
+DA:172,0
+DA:173,0
+DA:174,0
+DA:175,0
+DA:176,0
+DA:177,0
+DA:178,0
+DA:179,0
+DA:181,0
+DA:182,0
+DA:183,0
+DA:184,0
+DA:185,0
+DA:186,0
+DA:187,0
+DA:189,0
+DA:190,0
+DA:191,0
+DA:192,0
+DA:193,0
+DA:194,0
+DA:196,0
+DA:197,0
+DA:198,0
+DA:199,0
+DA:201,0
+LF:173
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:D:\Repositorios\rota-api\rota.api\DTOs\CreateRouteRequestDto.cs
+FN:10,System.String Rota.Api.Dtos.CreateRouteRequestDto::get_Name()
+FNDA:19,System.String Rota.Api.Dtos.CreateRouteRequestDto::get_Name()
+DA:11,19
+FN:11,System.String Rota.Api.Dtos.CreateRouteRequestDto::get_Optimization()
+FNDA:8,System.String Rota.Api.Dtos.CreateRouteRequestDto::get_Optimization()
+DA:12,8
+FN:13,System.Double Rota.Api.Dtos.CreateRouteRequestDto::get_TotalLoadWeightKg()
+FNDA:13,System.Double Rota.Api.Dtos.CreateRouteRequestDto::get_TotalLoadWeightKg()
+DA:14,13
+FN:14,System.Double Rota.Api.Dtos.CreateRouteRequestDto::get_TotalLoadVolumeM3()
+FNDA:13,System.Double Rota.Api.Dtos.CreateRouteRequestDto::get_TotalLoadVolumeM3()
+DA:15,13
+FN:16,System.Nullable`1<System.Int32> Rota.Api.Dtos.CreateRouteRequestDto::get_VehicleId()
+FNDA:2,System.Nullable`1<System.Int32> Rota.Api.Dtos.CreateRouteRequestDto::get_VehicleId()
+DA:17,2
+FN:18,System.Collections.Generic.List`1<Rota.Api.Dtos.WaypointDto> Rota.Api.Dtos.CreateRouteRequestDto::get_Waypoints()
+FNDA:19,System.Collections.Generic.List`1<Rota.Api.Dtos.WaypointDto> Rota.Api.Dtos.CreateRouteRequestDto::get_Waypoints()
+DA:19,19
+LF:6
+LH:6
+BRF:0
+BRH:0
+FNF:6
+FNH:6
+end_of_record
+SF:D:\Repositorios\rota-api\rota.api\DTOs\CreateVehicleDto.cs
+FN:8,System.String Rota.Api.Dtos.CreateVehicleDto::get_Name()
+FNDA:18,System.String Rota.Api.Dtos.CreateVehicleDto::get_Name()
+DA:9,18
+FN:10,System.Double Rota.Api.Dtos.CreateVehicleDto::get_MaxWeightKg()
+FNDA:4,System.Double Rota.Api.Dtos.CreateVehicleDto::get_MaxWeightKg()
+DA:11,4
+FN:11,System.Double Rota.Api.Dtos.CreateVehicleDto::get_MaxVolumeM3()
+FNDA:12,System.Double Rota.Api.Dtos.CreateVehicleDto::get_MaxVolumeM3()
+DA:12,12
+FN:12,System.Double Rota.Api.Dtos.CreateVehicleDto::get_MaxLoadWeightKg()
+FNDA:12,System.Double Rota.Api.Dtos.CreateVehicleDto::get_MaxLoadWeightKg()
+DA:13,12
+FN:14,System.Double Rota.Api.Dtos.CreateVehicleDto::get_CostPerKm()
+FNDA:12,System.Double Rota.Api.Dtos.CreateVehicleDto::get_CostPerKm()
+DA:15,12
+FN:15,System.Double Rota.Api.Dtos.CreateVehicleDto::get_CostPerHour()
+FNDA:4,System.Double Rota.Api.Dtos.CreateVehicleDto::get_CostPerHour()
+DA:16,4
+FN:16,System.Double Rota.Api.Dtos.CreateVehicleDto::get_DriverCostPerHour()
+FNDA:4,System.Double Rota.Api.Dtos.CreateVehicleDto::get_DriverCostPerHour()
+DA:17,4
+FN:18,System.Double Rota.Api.Dtos.CreateVehicleDto::get_MaxDistanceWithoutRefuelKm()
+FNDA:4,System.Double Rota.Api.Dtos.CreateVehicleDto::get_MaxDistanceWithoutRefuelKm()
+DA:19,4
+FN:19,System.Double Rota.Api.Dtos.CreateVehicleDto::get_MaxHeightM()
+FNDA:4,System.Double Rota.Api.Dtos.CreateVehicleDto::get_MaxHeightM()
+DA:20,4
+FN:21,System.String Rota.Api.Dtos.CreateVehicleDto::get_VehicleType()
+FNDA:10,System.String Rota.Api.Dtos.CreateVehicleDto::get_VehicleType()
+DA:22,10
+LF:10
+LH:10
+BRF:0
+BRH:0
+FNF:10
+FNH:10
+end_of_record
+SF:D:\Repositorios\rota-api\rota.api\DTOs\UpdateRouteRequestDto.cs
+FN:10,System.String Rota.Api.Dtos.UpdateRouteRequestDto::get_Name()
+FNDA:0,System.String Rota.Api.Dtos.UpdateRouteRequestDto::get_Name()
+DA:11,0
+FN:11,System.String Rota.Api.Dtos.UpdateRouteRequestDto::get_Optimization()
+FNDA:0,System.String Rota.Api.Dtos.UpdateRouteRequestDto::get_Optimization()
+DA:12,0
+FN:13,System.Double Rota.Api.Dtos.UpdateRouteRequestDto::get_TotalLoadWeightKg()
+FNDA:0,System.Double Rota.Api.Dtos.UpdateRouteRequestDto::get_TotalLoadWeightKg()
+DA:14,0
+FN:14,System.Double Rota.Api.Dtos.UpdateRouteRequestDto::get_TotalLoadVolumeM3()
+FNDA:0,System.Double Rota.Api.Dtos.UpdateRouteRequestDto::get_TotalLoadVolumeM3()
+DA:15,0
+FN:16,System.Nullable`1<System.Int32> Rota.Api.Dtos.UpdateRouteRequestDto::get_VehicleId()
+FNDA:0,System.Nullable`1<System.Int32> Rota.Api.Dtos.UpdateRouteRequestDto::get_VehicleId()
+DA:17,0
+FN:18,System.Collections.Generic.List`1<Rota.Api.Dtos.WaypointDto> Rota.Api.Dtos.UpdateRouteRequestDto::get_Waypoints()
+FNDA:0,System.Collections.Generic.List`1<Rota.Api.Dtos.WaypointDto> Rota.Api.Dtos.UpdateRouteRequestDto::get_Waypoints()
+DA:19,0
+LF:6
+LH:0
+BRF:0
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:D:\Repositorios\rota-api\rota.api\DTOs\WaypointDto.cs
+FN:9,System.Int32 Rota.Api.Dtos.WaypointDto::get_Order()
+FNDA:32,System.Int32 Rota.Api.Dtos.WaypointDto::get_Order()
+DA:10,32
+FN:10,System.Double Rota.Api.Dtos.WaypointDto::get_Latitude()
+FNDA:32,System.Double Rota.Api.Dtos.WaypointDto::get_Latitude()
+DA:11,32
+FN:11,System.Double Rota.Api.Dtos.WaypointDto::get_Longitude()
+FNDA:32,System.Double Rota.Api.Dtos.WaypointDto::get_Longitude()
+DA:12,32
+LF:3
+LH:3
+BRF:0
+BRH:0
+FNF:3
+FNH:3
+end_of_record
+SF:D:\Repositorios\rota-api\rota.api\Domain\RouteRequest.cs
+FN:7,System.Int32 Rota.Api.Domain.RouteRequest::get_Id()
+FNDA:2,System.Int32 Rota.Api.Domain.RouteRequest::get_Id()
+DA:8,2
+FN:8,System.String Rota.Api.Domain.RouteRequest::get_Name()
+FNDA:4,System.String Rota.Api.Domain.RouteRequest::get_Name()
+DA:9,4
+FN:11,System.String Rota.Api.Domain.RouteRequest::get_Optimization()
+FNDA:4,System.String Rota.Api.Domain.RouteRequest::get_Optimization()
+DA:12,4
+FN:14,System.Collections.Generic.List`1<Rota.Api.Domain.Waypoint> Rota.Api.Domain.RouteRequest::get_Waypoints()
+FNDA:7,System.Collections.Generic.List`1<Rota.Api.Domain.Waypoint> Rota.Api.Domain.RouteRequest::get_Waypoints()
+DA:15,7
+FN:17,System.Double Rota.Api.Domain.RouteRequest::get_TotalLoadWeightKg()
+FNDA:4,System.Double Rota.Api.Domain.RouteRequest::get_TotalLoadWeightKg()
+DA:18,4
+FN:18,System.Double Rota.Api.Domain.RouteRequest::get_TotalLoadVolumeM3()
+FNDA:2,System.Double Rota.Api.Domain.RouteRequest::get_TotalLoadVolumeM3()
+DA:19,2
+FN:22,System.Nullable`1<System.Int32> Rota.Api.Domain.RouteRequest::get_VehicleId()
+FNDA:2,System.Nullable`1<System.Int32> Rota.Api.Domain.RouteRequest::get_VehicleId()
+DA:23,2
+FN:23,Rota.Api.Domain.Vehicle Rota.Api.Domain.RouteRequest::get_Vehicle()
+FNDA:4,Rota.Api.Domain.Vehicle Rota.Api.Domain.RouteRequest::get_Vehicle()
+DA:24,4
+FN:26,System.DateTime Rota.Api.Domain.RouteRequest::get_CreatedAt()
+FNDA:3,System.DateTime Rota.Api.Domain.RouteRequest::get_CreatedAt()
+DA:27,3
+FN:28,System.Collections.Generic.ICollection`1<Rota.Api.Domain.RouteResult> Rota.Api.Domain.RouteRequest::get_Results()
+FNDA:1,System.Collections.Generic.ICollection`1<Rota.Api.Domain.RouteResult> Rota.Api.Domain.RouteRequest::get_Results()
+DA:29,1
+LF:10
+LH:10
+BRF:0
+BRH:0
+FNF:10
+FNH:10
+end_of_record
+SF:D:\Repositorios\rota-api\rota.api\Domain\RouteResult.cs
+FN:6,System.Int32 Rota.Api.Domain.RouteResult::get_Id()
+FNDA:0,System.Int32 Rota.Api.Domain.RouteResult::get_Id()
+DA:7,0
+FN:8,System.Double Rota.Api.Domain.RouteResult::get_TotalDistanceKm()
+FNDA:0,System.Double Rota.Api.Domain.RouteResult::get_TotalDistanceKm()
+DA:9,0
+FN:9,System.Double Rota.Api.Domain.RouteResult::get_TotalTimeMinutes()
+FNDA:0,System.Double Rota.Api.Domain.RouteResult::get_TotalTimeMinutes()
+DA:10,0
+FN:10,System.Nullable`1<System.Double> Rota.Api.Domain.RouteResult::get_TotalCost()
+FNDA:0,System.Nullable`1<System.Double> Rota.Api.Domain.RouteResult::get_TotalCost()
+DA:11,0
+FN:12,System.String Rota.Api.Domain.RouteResult::get_SerializedPath()
+FNDA:0,System.String Rota.Api.Domain.RouteResult::get_SerializedPath()
+DA:13,0
+FN:14,System.DateTime Rota.Api.Domain.RouteResult::get_CalculatedAt()
+FNDA:0,System.DateTime Rota.Api.Domain.RouteResult::get_CalculatedAt()
+DA:15,0
+FN:17,System.Int32 Rota.Api.Domain.RouteResult::get_RouteRequestId()
+FNDA:0,System.Int32 Rota.Api.Domain.RouteResult::get_RouteRequestId()
+DA:18,0
+FN:18,Rota.Api.Domain.RouteRequest Rota.Api.Domain.RouteResult::get_RouteRequest()
+FNDA:0,Rota.Api.Domain.RouteRequest Rota.Api.Domain.RouteResult::get_RouteRequest()
+DA:19,0
+LF:8
+LH:0
+BRF:0
+BRH:0
+FNF:8
+FNH:0
+end_of_record
+SF:D:\Repositorios\rota-api\rota.api\Domain\Vehicle.cs
+FN:6,System.Int32 Rota.Api.Domain.Vehicle::get_Id()
+FNDA:4,System.Int32 Rota.Api.Domain.Vehicle::get_Id()
+DA:7,4
+FN:7,System.String Rota.Api.Domain.Vehicle::get_Name()
+FNDA:7,System.String Rota.Api.Domain.Vehicle::get_Name()
+DA:8,7
+FN:10,System.Double Rota.Api.Domain.Vehicle::get_MaxWeightKg()
+FNDA:4,System.Double Rota.Api.Domain.Vehicle::get_MaxWeightKg()
+DA:11,4
+FN:11,System.Double Rota.Api.Domain.Vehicle::get_MaxVolumeM3()
+FNDA:4,System.Double Rota.Api.Domain.Vehicle::get_MaxVolumeM3()
+DA:12,4
+FN:12,System.Double Rota.Api.Domain.Vehicle::get_MaxLoadWeightKg()
+FNDA:6,System.Double Rota.Api.Domain.Vehicle::get_MaxLoadWeightKg()
+DA:13,6
+FN:16,System.Double Rota.Api.Domain.Vehicle::get_CostPerKm()
+FNDA:4,System.Double Rota.Api.Domain.Vehicle::get_CostPerKm()
+DA:17,4
+FN:17,System.Double Rota.Api.Domain.Vehicle::get_CostPerHour()
+FNDA:4,System.Double Rota.Api.Domain.Vehicle::get_CostPerHour()
+DA:18,4
+FN:18,System.Double Rota.Api.Domain.Vehicle::get_DriverCostPerHour()
+FNDA:4,System.Double Rota.Api.Domain.Vehicle::get_DriverCostPerHour()
+DA:19,4
+FN:22,System.Double Rota.Api.Domain.Vehicle::get_MaxDistanceWithoutRefuelKm()
+FNDA:4,System.Double Rota.Api.Domain.Vehicle::get_MaxDistanceWithoutRefuelKm()
+DA:23,4
+FN:23,System.Double Rota.Api.Domain.Vehicle::get_MaxHeightM()
+FNDA:4,System.Double Rota.Api.Domain.Vehicle::get_MaxHeightM()
+DA:24,4
+FN:26,System.String Rota.Api.Domain.Vehicle::get_VehicleType()
+FNDA:7,System.String Rota.Api.Domain.Vehicle::get_VehicleType()
+DA:27,7
+FN:29,System.Collections.Generic.ICollection`1<Rota.Api.Domain.RouteRequest> Rota.Api.Domain.Vehicle::get_RouteRequests()
+FNDA:2,System.Collections.Generic.ICollection`1<Rota.Api.Domain.RouteRequest> Rota.Api.Domain.Vehicle::get_RouteRequests()
+DA:30,2
+LF:12
+LH:12
+BRF:0
+BRH:0
+FNF:12
+FNH:12
+end_of_record
+SF:D:\Repositorios\rota-api\rota.api\Domain\Waypoint.cs
+FN:10,System.Int32 Rota.Api.Domain.Waypoint::get_Id()
+FNDA:2,System.Int32 Rota.Api.Domain.Waypoint::get_Id()
+DA:11,2
+FN:11,System.Int32 Rota.Api.Domain.Waypoint::get_Order()
+FNDA:6,System.Int32 Rota.Api.Domain.Waypoint::get_Order()
+DA:12,6
+FN:13,System.Double Rota.Api.Domain.Waypoint::get_Latitude()
+FNDA:6,System.Double Rota.Api.Domain.Waypoint::get_Latitude()
+DA:14,6
+FN:14,System.Double Rota.Api.Domain.Waypoint::get_Longitude()
+FNDA:6,System.Double Rota.Api.Domain.Waypoint::get_Longitude()
+DA:15,6
+FN:18,System.Int32 Rota.Api.Domain.Waypoint::get_RouteRequestId()
+FNDA:2,System.Int32 Rota.Api.Domain.Waypoint::get_RouteRequestId()
+DA:19,2
+FN:21,Rota.Api.Domain.RouteRequest Rota.Api.Domain.Waypoint::get_RouteRequest()
+FNDA:0,Rota.Api.Domain.RouteRequest Rota.Api.Domain.Waypoint::get_RouteRequest()
+DA:22,0
+LF:6
+LH:5
+BRF:0
+BRH:0
+FNF:6
+FNH:5
+end_of_record
+SF:D:\Repositorios\rota-api\rota.api\Data\RotaDbContext.cs
+FN:13,Microsoft.EntityFrameworkCore.DbSet`1<Rota.Api.Domain.RouteRequest> Rota.Api.Data.RotaDbContext::get_RouteRequests()
+FNDA:8,Microsoft.EntityFrameworkCore.DbSet`1<Rota.Api.Domain.RouteRequest> Rota.Api.Data.RotaDbContext::get_RouteRequests()
+DA:14,8
+FN:14,Microsoft.EntityFrameworkCore.DbSet`1<Rota.Api.Domain.Waypoint> Rota.Api.Data.RotaDbContext::get_Waypoints()
+FNDA:6,Microsoft.EntityFrameworkCore.DbSet`1<Rota.Api.Domain.Waypoint> Rota.Api.Data.RotaDbContext::get_Waypoints()
+DA:15,6
+FN:15,Microsoft.EntityFrameworkCore.DbSet`1<Rota.Api.Domain.RouteResult> Rota.Api.Data.RotaDbContext::get_RouteResults()
+FNDA:6,Microsoft.EntityFrameworkCore.DbSet`1<Rota.Api.Domain.RouteResult> Rota.Api.Data.RotaDbContext::get_RouteResults()
+DA:16,6
+FN:16,Microsoft.EntityFrameworkCore.DbSet`1<Rota.Api.Domain.Vehicle> Rota.Api.Data.RotaDbContext::get_Vehicles()
+FNDA:8,Microsoft.EntityFrameworkCore.DbSet`1<Rota.Api.Domain.Vehicle> Rota.Api.Data.RotaDbContext::get_Vehicles()
+DA:17,8
+FN:21,System.Void Rota.Api.Data.RotaDbContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+FNDA:1,System.Void Rota.Api.Data.RotaDbContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+DA:22,1
+DA:23,1
+DA:26,1
+DA:27,1
+DA:28,1
+DA:29,1
+DA:30,1
+DA:34,1
+DA:35,1
+DA:36,1
+DA:37,1
+DA:38,1
+DA:42,1
+DA:43,1
+DA:44,1
+DA:45,1
+DA:46,1
+DA:50,1
+DA:51,1
+DA:52,1
+DA:56,1
+DA:57,1
+DA:58,1
+DA:60,1
+FN:8,System.Void Rota.Api.Data.RotaDbContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<Rota.Api.Data.RotaDbContext>)
+FNDA:6,System.Void Rota.Api.Data.RotaDbContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<Rota.Api.Data.RotaDbContext>)
+DA:9,6
+DA:10,6
+DA:11,6
+LF:31
+LH:31
+BRF:0
+BRH:0
+FNF:6
+FNH:6
+end_of_record
