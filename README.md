@@ -116,7 +116,7 @@ FluentValidation garantindo integridade de dados.
     │   ├── TestServerFactory.cs
     │   └── Usings.cs
     │
-    └──coverage/
+    └── coverage/
     
 ------------------------------------------------------------------------
 
